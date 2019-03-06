@@ -37,7 +37,7 @@ See the Example paragraph for execution of the assignment
 To execute the assignment we need an output file, barcodes.csv and orders.csv file.
 
 ```
-python main.py ./output.txt ./data/barcodes.csv ./data/orders.csv
+python src/main.py ./output.txt ./data/barcodes.csv ./data/orders.csv
 ```
 
 As specified in the assignment the valid orders are written to the output.txt file, errors are logged to stderr and the customers who bought the most valid tickets are written to stdout.
@@ -45,7 +45,7 @@ As specified in the assignment the valid orders are written to the output.txt fi
 stdout and stderr are ofter written to the terminal without visual difference. The following command makes it more explicit by writing the stdout output to stdout.log and stderr output to stderr.log. 
 
 ```
-python main-pandas.py ./output.txt ./data/barcodes.csv ./data/orders.csv > >(tee -a stdout.log) 2> >(tee -a stderr.log >&2)
+python src/main.py ./output.txt ./data/barcodes.csv ./data/orders.csv > >(tee -a stdout.log) 2> >(tee -a stderr.log >&2)
 ```
 
 An example of the results, for this assignment, is stored in the results directory.

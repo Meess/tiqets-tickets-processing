@@ -3,10 +3,11 @@ Executing the tiqets assignment, described in:
 Tiqets Programming Assignment - CSV files.pdf
 """
 
-import read
 import sys
-import printer
-from transformer import Table, Orders, Barcodes
+import printer.printer as printer
+import reader.read as read
+from transformer.transformer import Table, Orders, Barcodes
+
 
 if __name__ == '__main__':
     """
