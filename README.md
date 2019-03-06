@@ -53,8 +53,8 @@ An example of the results, for this assignment, is stored in the results directo
 ### SQL mockup
 Considering a one-to-many relation for customer to order and from order to barcode, the following sql flow derived:
 
-![Image SQL flow chart]
-(images/sql.jpg)
+![ScreenShot]
+(/images/sql.jpg)
 
 ## Authors
 
