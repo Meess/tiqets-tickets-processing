@@ -50,6 +50,10 @@ python main-pandas.py ./output.txt ./data/barcodes.csv ./data/orders.csv > >(tee
 
 An example of the results, for this assignment, is stored in the results directory.
 
+### SQL mockup
+Considering a one-to-many relation for customer to order and from order to barcode, the following sql flow derived:
+![SQL flow chart]
+(https://raw.githubusercontent.com/Meess/tiqets-tickets-processing/master/images/sql.jpg?raw=true)
 
 ## Authors
 
