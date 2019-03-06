@@ -52,8 +52,9 @@ An example of the results, for this assignment, is stored in the results directo
 
 ### SQL mockup
 Considering a one-to-many relation for customer to order and from order to barcode, the following sql flow derived:
-![SQL flow chart]
-(https://raw.githubusercontent.com/Meess/tiqets-tickets-processing/master/images/sql.jpg?raw=true)
+
+![Image SQL flow chart]
+(images/sql.jpg)
 
 ## Authors
 
