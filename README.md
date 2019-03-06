@@ -51,7 +51,7 @@ python main-pandas.py ./output.txt ./data/barcodes.csv ./data/orders.csv > >(tee
 An example of the results, for this assignment, is stored in the results directory.
 
 ### SQL mockup
-Considering a one-to-many relation for customer to order and from order to barcode, the following sql flow derived:
+Considering a one-to-many relation for Customer to Order and from Order to Barcode, the following sql flow was derived:
 
 ![Image](/images/sql.jpg)
 
